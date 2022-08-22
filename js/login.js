@@ -1,4 +1,4 @@
-function loginSuccesful() {
+function loginSuccessful() {
     document.getElementById("signinForm").addEventListener("submit", function (e) {
         (e).preventDefault();
         let user = document.getElementById("email").value;
@@ -11,5 +11,5 @@ function loginSuccesful() {
 }
 
 document.addEventListener("DOMContentLoaded", function (e) {
-    loginSuccesful();
+    loginSuccessful();
 });
