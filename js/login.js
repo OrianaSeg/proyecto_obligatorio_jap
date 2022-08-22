@@ -1,5 +1,4 @@
-function loginSuccesful()
-{
+function loginSuccesful() {
     document.getElementById("signinForm").addEventListener("submit", function(e)
     {
         (e).preventDefault();
@@ -16,7 +15,6 @@ function loginSuccesful()
     });   
 }
 
-document.addEventListener("DOMContentLoaded", function(e)
-{
+document.addEventListener("DOMContentLoaded", function(e) {
   loginSuccesful();
 });
